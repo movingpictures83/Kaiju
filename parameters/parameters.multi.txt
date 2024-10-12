@@ -1,0 +1,4 @@
+parallel	2
+nodedump	nodes.dmp
+database	viruses/kaiju_db_viruses.fmi
+fastq	kaiju-testdata/sars-cov-2_1.fastq.gz

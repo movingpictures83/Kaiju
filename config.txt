@@ -1,0 +1,5 @@
+Prefix pipelines/Kaiju/
+#Plugin KaijuMakeDB inputfile parameters/parameters.makedb.txt outputfile none
+Plugin KaijuMulti inputfile parameters/parameters.multi.txt outputfile sars-cov-2_1.out
+Plugin Kaiju2Table inputfile parameters/parameters.table.txt outputfile sars-cov-2_1.table
+Plugin Kaiju2Krona inputfile parameters/parameters.krona.txt outputfile sars-cov-2_1krona.out
